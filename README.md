@@ -7,6 +7,14 @@ URL-compatible with the Hermes Agent API server.
 
 No self-improvement, memory or messaging gateway: just isolation of soul + skills + MCPs per profile.
 
+> **Derivative work.** Aimpoint Harness is inspired by, and partly derived from,
+> [Hermes Agent](https://github.com/NousResearch/hermes-agent) by Nous Research (MIT). The
+> profile-per-folder model (`SOUL.md`, `skills/`, `.env`), the MCP server config shape and
+> `mcp__<server>__<tool>` naming, the skills index + `skill_view` progressive disclosure, the API
+> server routes (`/v1/...`, `/p/<profile>/...`, `X-Hermes-Session-Id`) and the Claude Code / Codex
+> OAuth request details all follow how Hermes does it. This is an independent project, not
+> affiliated with or endorsed by Nous Research.
+
 ## Install
 
 Python 3.12+ and [uv](https://docs.astral.sh/uv/). Works on macOS, Linux and Windows.
@@ -161,3 +169,7 @@ default; prefer a tunnel (Tailscale, Cloudflare Tunnel) to binding `0.0.0.0` on 
 uv run pytest -q                                  # offline: fake provider, real MCP/skills/sessions/HTTP
 AIMPOINT_HOME=... uv run python tests/e2e_api.py  # live: against a running `aimpoint serve`
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE). Includes portions derived from Hermes Agent, Copyright (c) 2025 Nous Research (MIT).

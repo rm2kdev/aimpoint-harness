@@ -3,6 +3,8 @@ name = "aimpoint-harness"
 version = "0.1.0"
 description = "Self-hosted harness: per-profile soul, skills and MCPs behind an OpenAI-compatible API over your LLM subscription"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "Ryan", email = "845245+rm2kdev@users.noreply.github.com" }
 ]
@@ -14,6 +16,9 @@ dependencies = [
     "starlette>=1.10.0",
     "uvicorn[standard]>=0.54.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/rm2kdev/aimpoint-harness"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
