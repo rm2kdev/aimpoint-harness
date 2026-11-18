@@ -1,0 +1,10 @@
+Aimpoint Harness
+Copyright (c) 2026 Ryan Lamvohee (rm2kdev)
+
+This project is a derivative work inspired by and partly derived from Hermes Agent
+(https://github.com/NousResearch/hermes-agent), Copyright (c) 2025 Nous Research,
+licensed under the MIT License. It follows Hermes' design for profiles (per-folder SOUL.md,
+skills and .env), MCP server configuration and tool naming, skill progressive disclosure, the
+API server routes and session header, and the Claude Code / Codex OAuth request details.
+
+Aimpoint Harness is an independent project and is not affiliated with or endorsed by Nous Research.

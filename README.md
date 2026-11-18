@@ -172,4 +172,4 @@ AIMPOINT_HOME=... uv run python tests/e2e_api.py  # live: against a running `aim
 
 ## License
 
-MIT, see [LICENSE](LICENSE). Includes portions derived from Hermes Agent, Copyright (c) 2025 Nous Research (MIT).
+MIT, see [LICENSE](LICENSE) and [NOTICE](NOTICE). Includes portions derived from Hermes Agent, Copyright (c) 2025 Nous Research (MIT).
